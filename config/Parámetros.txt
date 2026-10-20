@@ -7,4 +7,4 @@ temperatura_inicial:0.03
 enfriamiento:0.9998
 semilla:42
 caras_distintas:false
-path_results:resultados_cpp7.txt
+path_results:resultados_cpp8.txt

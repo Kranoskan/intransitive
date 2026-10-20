@@ -15,7 +15,14 @@ src/
     output/          # generación y escritura del informe
     platform/        # concurrencia, rutas y acceso a archivos
   python/
-    main.py
+    main.py           # punto de entrada
+    intransitive/
+      configuracion.py # lectura y validación de parámetros
+      dados.py         # generación y mutación de dados
+      analisis.py      # histogramas y comparaciones
+      busqueda.py      # recocido simulado
+      informe.py       # formato y escritura de resultados
+      application.py   # coordinación del flujo de ejecución
 config/
   Parámetros.txt
 ```
@@ -66,5 +73,9 @@ La versión Python sigue disponible en `src/python/main.py`, usa el mismo
 formato de parámetros e incluye el tiempo de ejecución en su informe:
 
 ```powershell
+py src/python/main.py
 py src/python/main.py config\Parámetros.txt
 ```
+
+El código Python está separado en `src/python/intransitive/`: configuración,
+modelo de dados, análisis, búsqueda e informe tienen módulos independientes.
