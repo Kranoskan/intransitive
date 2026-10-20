@@ -6,7 +6,7 @@
 
 Solemos pensar que, si A vence a B y B vence a C, entonces A también debería vencer a C. Pero no siempre es así: piedra, papel o tijera es un ejemplo cotidiano de una relación no transitiva.
 
-Los dados ofrecen otro ejemplo interesante. Al lanzar dos dados, gana el que obtiene la suma más alta. Sin embargo, tener una media mayor no implica necesariamente tener más probabilidades de ganar. Por eso, las probabilidades de victoria entre varias opciones pueden formar un ciclo, en lugar de un orden universal.
+Los dados ofrecen otro ejemplo interesante. Supongamos un juego en el que al lanzar dos dados, gana el que obtiene la suma más alta. Sin embargo, tener una media mayor no implica necesariamente tener más probabilidades de ganar. Por eso, las probabilidades de victoria entre varias opciones pueden formar un ciclo, en lugar de un orden universal.
 
 Por ejemplo, estos dados de seis caras:
 
@@ -28,7 +28,7 @@ Este ejemplo muestra que una sola medida, como la media, no siempre describe có
 
 ### El experimento: ciclos de parejas de dados
 
-Este proyecto implementa en **C++ y Python** un algoritmo de **recocido simulado** para buscar ciclos de elementos no transitivos. **Cada elemento del ciclo es una pareja de dados**, no un dado individual. Por tanto, el resultado no es un conjunto de dados individuales no transitivos: es una secuencia cíclica de parejas de dados en la que cada pareja tiene ventaja sobre la siguiente.
+Este proyecto implementa en **C++ y Python** un algoritmo de **recocido simulado** para buscar ciclos de elementos no transitivos. Se le ha decidido dar una vuelta de tuerca y cada elemento no es un dado, cada elemento es una **pareja de dados**, no un dado individual. Por tanto, el resultado no es un conjunto de dados individuales no transitivos: es una secuencia cíclica de parejas de dados en la que cada pareja tiene ventaja sobre la siguiente.
 
 Si llamamos a las parejas `P₁, P₂, …, Pₙ`, el algoritmo busca un ciclo en el que:
 
@@ -131,7 +131,7 @@ El informe incluye las parejas de dados encontradas, los resultados de las compa
 
 We tend to assume that if A beats B and B beats C, then A should beat C as well. But that is not always true: rock, paper, scissors is a familiar example of a non-transitive relationship.
 
-Dice provide another interesting example. When two dice are rolled, the higher total wins. However, a higher average does not necessarily mean a higher chance of winning. The probabilities of winning between several options can therefore form a cycle rather than a universal ranking.
+Dice provide another interesting example. Let's imagine a game in which two dice are rolled, and the player with the highest total wins. However, having a higher average does not necessarily mean having a better chance of winning. Therefore, the probabilities of winning among various options can form a cycle, rather than a universal order.
 
 For example, consider these six-sided dice:
 
@@ -153,7 +153,7 @@ This example shows why a single measure, such as the mean, cannot always describ
 
 ### The experiment: cycles of dice pairs
 
-This project implements **simulated annealing** in **C++ and Python** to search for cycles of non-transitive elements. **Each element in the cycle is a pair of dice**, not an individual die. In other words, the output is not a set of individually non-transitive dice; it is a cyclic sequence of dice pairs, where each pair has an advantage over the next one.
+This project implements **simulated annealing** in **C++ and Python** to search for cycles of non-transitive elements. I've decided to take it a step further: each element isn't a die; each element is a **pair of dice**, not a single die. Therefore, the result isn't a set of individual, non-transitive dice: it's a cyclic sequence of pairs of dice in which each pair has an advantage over the next one.
 
 Let the pairs be `P₁, P₂, …, Pₙ`. The algorithm searches for a cycle satisfying:
 
