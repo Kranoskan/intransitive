@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug intransitive (C++)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}\\intransitive.exe",
+            "args": [
+                "${workspaceFolder}\\config\\Parámetros.txt"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
+            "preLaunchTask": "C/C++: build intransitive"
+        }
+    ]
+}

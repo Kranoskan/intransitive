@@ -1,0 +1,57 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: build intransitive",
+            "command": "C:\\MinGW\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-std=c++11",
+                "-finput-charset=UTF-8",
+                "-fexec-charset=UTF-8",
+                "-O2",
+                "-g3",
+                "-Wall",
+                "-Wextra",
+                "-Wpedantic",
+                "${workspaceFolder}\\src\\cpp\\main.cpp",
+                "${workspaceFolder}\\src\\cpp\\application.cpp",
+                "${workspaceFolder}\\src\\cpp\\algorithm\\simulated_annealing.cpp",
+                "${workspaceFolder}\\src\\cpp\\analysis\\cycle.cpp",
+                "${workspaceFolder}\\src\\cpp\\config\\parameters.cpp",
+                "${workspaceFolder}\\src\\cpp\\model\\dice.cpp",
+                "${workspaceFolder}\\src\\cpp\\platform\\parallel.cpp",
+                "${workspaceFolder}\\src\\cpp\\platform\\paths.cpp",
+                "${workspaceFolder}\\src\\cpp\\output\\report.cpp",
+                "-o",
+                "${workspaceFolder}\\intransitive.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Compila los módulos C++11 de intransitive."
+        },
+        {
+            "type": "process",
+            "label": "C/C++: run intransitive",
+            "command": "${workspaceFolder}\\intransitive.exe",
+            "args": [
+                "${workspaceFolder}\\config\\Parámetros.txt"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "dependsOn": "C/C++: build intransitive",
+            "dependsOrder": "sequence",
+            "problemMatcher": []
+        }
+    ]
+}

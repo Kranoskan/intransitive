@@ -1,0 +1,56 @@
+=== CONFIGURACIÓN INICIAL ===
+  n:3
+  c:6
+  max_valor:20
+  reinicios:100
+  iteraciones:20000
+  temperatura_inicial:0.03
+  enfriamiento:0.9998
+  semilla:42
+  caras_distintas:false
+  path_results:resultados_cpp2.txt
+
+=== DADOS ENCONTRADOS ===
+
+Pareja 1:
+  Dado 1: [20, 19, 18, 1, 19, 2]
+  Dado 2: [5, 5, 5, 5, 5, 5]
+
+Pareja 2:
+  Dado 1: [12, 11, 11, 11, 12, 12]
+  Dado 2: [11, 10, 11, 10, 10, 11]
+
+Pareja 3:
+  Dado 1: [12, 12, 8, 9, 18, 11]
+  Dado 2: [3, 20, 9, 18, 1, 9]
+
+=== COMPROBACION EXHAUSTIVA ===
+
+Pareja 1 contra pareja 2:
+  Victorias primera: 810
+  Empates:           54
+  Victorias segunda: 432
+  Total:             1296
+  Probabilidad exacta: 31/48
+  Porcentaje: 64.583333%
+
+Pareja 2 contra pareja 3:
+  Victorias primera: 747
+  Empates:           45
+  Victorias segunda: 504
+  Total:             1296
+  Probabilidad exacta: 19/32
+  Porcentaje: 59.375000%
+
+Pareja 3 contra pareja 1:
+  Victorias primera: 768
+  Empates:           0
+  Victorias segunda: 528
+  Total:             1296
+  Probabilidad exacta: 16/27
+  Porcentaje: 59.259259%
+
+Ciclo no transitivo: True
+Puntuacion: 0.098129
+
+Tiempo de ejecución: 0.220666 segundos

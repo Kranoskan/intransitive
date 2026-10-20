@@ -1,0 +1,68 @@
+=== CONFIGURACIÓN INICIAL ===
+  n:4
+  c:6
+  max_valor:100
+  reinicios:100
+  iteraciones:20000
+  temperatura_inicial:0.03
+  enfriamiento:0.9998
+  semilla:42
+  caras_distintas:false
+  path_results:resultados_py4.txt
+
+=== DADOS ENCONTRADOS ===
+
+Pareja 1:
+  Dado 1: [81, 58, 4, 45, 27, 1, 99, 78, 17, 83, 16, 91, 82, 67, 36, 10, 14, 21, 84, 6]
+  Dado 2: [23, 86, 72, 74, 15, 33, 71, 56, 70, 2, 77, 73, 5, 78, 94, 30, 82, 78, 11, 36]
+
+Pareja 2:
+  Dado 1: [99, 48, 59, 16, 30, 66, 58, 26, 29, 1, 13, 81, 60, 49, 65, 72, 83, 19, 4, 16]
+  Dado 2: [58, 97, 65, 22, 82, 92, 9, 72, 24, 18, 27, 81, 10, 30, 91, 53, 6, 67, 84, 98]
+
+Pareja 3:
+  Dado 1: [58, 43, 60, 45, 74, 7, 7, 56, 33, 55, 53, 77, 26, 62, 4, 61, 25, 52, 89, 35]
+  Dado 2: [39, 88, 22, 2, 42, 78, 49, 74, 70, 52, 73, 47, 46, 18, 61, 76, 91, 48, 21, 50]
+
+Pareja 4:
+  Dado 1: [2, 78, 31, 90, 76, 24, 98, 39, 28, 9, 38, 85, 10, 29, 89, 96, 88, 46, 91, 9]
+  Dado 2: [3, 87, 89, 19, 15, 7, 23, 82, 15, 39, 100, 69, 70, 50, 23, 23, 82, 81, 18, 23]
+
+=== COMPROBACION EXHAUSTIVA ===
+
+Pareja 1 contra pareja 2:
+  Victorias primera: 80016
+  Empates:           1055
+  Victorias segunda: 78929
+  Total:             160000
+  Probabilidad exacta: 161087/320000
+  Porcentaje:         50.339687%
+
+Pareja 2 contra pareja 3:
+  Victorias primera: 79940
+  Empates:           1156
+  Victorias segunda: 78904
+  Total:             160000
+  Probabilidad exacta: 40259/80000
+  Porcentaje:         50.323750%
+
+Pareja 3 contra pareja 4:
+  Victorias primera: 80095
+  Empates:           1092
+  Victorias segunda: 78813
+  Total:             160000
+  Probabilidad exacta: 80641/160000
+  Porcentaje:         50.400625%
+
+Pareja 4 contra pareja 1:
+  Victorias primera: 80121
+  Empates:           990
+  Victorias segunda: 78889
+  Total:             160000
+  Probabilidad exacta: 10077/20000
+  Porcentaje:         50.385000%
+
+Ciclo no transitivo: True
+Puntuacion: 0.003418632812500004
+
+Tiempo de ejecución: 291.593594 segundos

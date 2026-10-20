@@ -1,0 +1,56 @@
+=== CONFIGURACIÓN INICIAL ===
+  n:3
+  c:6
+  max_valor:20
+  reinicios:100
+  iteraciones:20000
+  temperatura_inicial:0.03
+  enfriamiento:0.9998
+  semilla:42
+  caras_distintas:false
+  path_results:resultados_py2.txt
+
+=== DADOS ENCONTRADOS ===
+
+Pareja 1:
+  Dado 1: [4, 20, 20, 4, 5, 5]
+  Dado 2: [6, 5, 5, 5, 20, 5]
+
+Pareja 2:
+  Dado 1: [2, 20, 1, 20, 18, 20]
+  Dado 2: [6, 3, 3, 3, 3, 3]
+
+Pareja 3:
+  Dado 1: [6, 12, 13, 12, 6, 12]
+  Dado 2: [6, 14, 6, 6, 7, 6]
+
+=== COMPROBACION EXHAUSTIVA ===
+
+Pareja 1 contra pareja 2:
+  Victorias primera: 772
+  Empates:           8
+  Victorias segunda: 516
+  Total:             1296
+  Probabilidad exacta: 97/162
+  Porcentaje:         59.876543%
+
+Pareja 2 contra pareja 3:
+  Victorias primera: 768
+  Empates:           9
+  Victorias segunda: 519
+  Total:             1296
+  Probabilidad exacta: 515/864
+  Porcentaje:         59.606481%
+
+Pareja 3 contra pareja 1:
+  Victorias primera: 770
+  Empates:           6
+  Victorias segunda: 520
+  Total:             1296
+  Probabilidad exacta: 773/1296
+  Porcentaje:         59.645062%
+
+Ciclo no transitivo: True
+Puntuacion: 0.10091949588477361
+
+Tiempo de ejecución: 48.628947 segundos

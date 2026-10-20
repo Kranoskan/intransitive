@@ -1,0 +1,10 @@
+n:4
+c:6
+max_valor:20
+reinicios:100
+iteraciones:20000
+temperatura_inicial:0.03
+enfriamiento:0.9998
+semilla:42
+caras_distintas:false
+path_results:resultados_cpp7.txt

@@ -1,0 +1,15 @@
+Experimento ID,Lenguaje,Fichero Origen,n (Dados),c (Caras),Max Valor,Enfriamiento,Iteraciones,Puntuación Obtenida,Tiempo de Ejecución (s)
+1,C++,resultados_cpp1.txt,4,6,20,0.9998,20000,0.175000,0.304657
+2,C++,resultados_cpp2.txt,3,6,20,0.9998,20000,0.098129,0.220666
+3,C++,resultados_cpp3.txt,5,6,20,0.9998,20000,0.178171,0.365160
+4,C++,resultados_cpp4.txt,4,6,100,0.9998,20000,0.004802,1.162642
+5,C++,resultados_cpp5.txt,4,6,20,0.9998,200000,0.175000,3.223905
+6,C++,resultados_cpp6.txt,4,6,20,0.9999,20000,0.029263,0.308075
+7,C++,resultados_cpp7.txt,4,6,20,0.9995,20000,0.175000,0.344899
+8,Python,resultados_py1.txt,4,6,20,0.9998,20000,0.17499999999999996,51.505505
+9,Python,resultados_py2.txt,3,6,20,0.9998,20000,0.10091949588477361,48.628947
+10,Python 3,resultados_py3.txt,5,6,20,0.9998,20000,0.1743479938271605,67.341656
+11,Python,resultados_py4.txt,4,6,100,0.9998,20000,0.003418632812500004,291.593594
+12,Python,resultados_py5.txt,4,6,20,0.9998,200000,0.17499999999999996,482.091738
+13,Python,resultados_py6.txt,4,6,20,0.9999,20000,0.04145447530864201,48.491484
+14,Python,resultados_py7.txt,4,6,20,0.9995,20000,0.17499999999999996,49.815259

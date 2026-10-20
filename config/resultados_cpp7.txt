@@ -1,0 +1,68 @@
+=== CONFIGURACIÓN INICIAL ===
+  n:4
+  c:6
+  max_valor:20
+  reinicios:100
+  iteraciones:20000
+  temperatura_inicial:0.03
+  enfriamiento:0.9995
+  semilla:42
+  caras_distintas:false
+  path_results:resultados_cpp7.txt
+
+=== DADOS ENCONTRADOS ===
+
+Pareja 1:
+  Dado 1: [17, 17, 1, 1, 17, 17]
+  Dado 2: [5, 4, 5, 4, 4, 4]
+
+Pareja 2:
+  Dado 1: [9, 10, 9, 9, 10, 9]
+  Dado 2: [9, 10, 10, 10, 10, 10]
+
+Pareja 3:
+  Dado 1: [20, 2, 2, 19, 2, 2]
+  Dado 2: [15, 15, 15, 15, 15, 15]
+
+Pareja 4:
+  Dado 1: [4, 13, 4, 5, 13, 13]
+  Dado 2: [11, 11, 11, 20, 3, 11]
+
+=== COMPROBACION EXHAUSTIVA ===
+
+Pareja 1 contra pareja 2:
+  Victorias primera: 864
+  Empates:           0
+  Victorias segunda: 432
+  Total:             1296
+  Probabilidad exacta: 2/3
+  Porcentaje: 66.666667%
+
+Pareja 2 contra pareja 3:
+  Victorias primera: 864
+  Empates:           0
+  Victorias segunda: 432
+  Total:             1296
+  Probabilidad exacta: 2/3
+  Porcentaje: 66.666667%
+
+Pareja 3 contra pareja 4:
+  Victorias primera: 864
+  Empates:           0
+  Victorias segunda: 432
+  Total:             1296
+  Probabilidad exacta: 2/3
+  Porcentaje: 66.666667%
+
+Pareja 4 contra pareja 1:
+  Victorias primera: 864
+  Empates:           0
+  Victorias segunda: 432
+  Total:             1296
+  Probabilidad exacta: 2/3
+  Porcentaje: 66.666667%
+
+Ciclo no transitivo: True
+Puntuacion: 0.175000
+
+Tiempo de ejecución: 0.344899 segundos
