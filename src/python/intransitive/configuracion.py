@@ -143,6 +143,7 @@ def validar_configuracion(configuracion: Configuracion) -> None:
 def cargar_configuracion(ruta: Path) -> Configuracion:
     """Carga el archivo de parámetros y devuelve una configuración validada."""
     ruta_resuelta = ruta.resolve()
-    configuracion = convertir_opciones(leer_opciones(ruta_resuelta), ruta_resuelta)
+    opciones = leer_opciones(ruta_resuelta)
+    configuracion = convertir_opciones(opciones, ruta_resuelta)
     validar_configuracion(configuracion)
     return configuracion

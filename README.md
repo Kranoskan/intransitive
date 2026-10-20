@@ -15,14 +15,14 @@ src/
     output/          # generación y escritura del informe
     platform/        # concurrencia, rutas y acceso a archivos
   python/
-    main.py           # punto de entrada
+    main.py            # punto de entrada
     intransitive/
-      configuracion.py # lectura y validación de parámetros
-      dados.py         # generación y mutación de dados
-      analisis.py      # histogramas y comparaciones
-      busqueda.py      # recocido simulado
-      informe.py       # formato y escritura de resultados
-      application.py   # coordinación del flujo de ejecución
+      configuracion.py  # lectura y validación de parámetros
+      dados.py          # generación y mutación de dados
+      analisis.py       # histogramas y comparaciones
+      busqueda.py       # recocido simulado
+      informe.py        # formato y escritura de resultados
+      application.py    # coordinación del flujo de ejecución
 config/
   Parámetros.txt
 ```
